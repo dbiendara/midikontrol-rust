@@ -56,6 +56,16 @@ The application expects a configuration file at `~/.config/midicontrol/config.js
 | `MuteApp` | App Name | Toggles mute for an application. |
 | `Media` | `play`, `stop`, `prev`, `next`, `defaultsink` | Controls media players or switches the default sink. |
 
+### Visual Configuration Tool (GUI)
+
+A graphical configuration tool (`config_gui.py`) is included to visually inspect and map knobs, faders, and buttons:
+
+```bash
+# Requirements: python3-tk, mido
+python3 config_gui.py
+```
+It displays the physical layout of the KORG nanoKONTROL2, provides a MIDI learn mode, detects active audio devices and running applications, and can save and restart `midicontrol.service` directly.
+
 ## Installation
 
 The project includes an `install.sh` script which:
