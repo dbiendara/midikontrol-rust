@@ -1,0 +1,20 @@
+{
+  "enable_blinking": true,
+  "static_leds": [41, 42, 43, 44, 46, 32, 34, 38, 39],
+  "mappings": {
+    "0": { "type": "Source", "target": "easyeffects_source" },
+    "2": { "type": "App", "target": "mpv" },
+    "6": { "type": "App", "target": "spotify", "blink_led": 38 },
+    "7": { "type": "App", "target": "vivaldi|firefox" },
+    "16": { "type": "Sink", "target": "alsa_output.pci-0000_0d_00.4.analog-stereo" },
+    "17": { "type": "Sink", "target": "alsa_output.pci-0000_0d_00.4.iec958-ac3-surround-51" },
+    "18": { "type": "Sink", "target": "alsa_output.usb-Burr-Brown_from_TI_USB_audio_CODEC-00.analog-stereo" },
+    "19": { "type": "Sink", "target": "alsa_output.pci-0000_0b_00.1.hdmi-stereo" },
+    "41": { "type": "Media", "target": "play" },
+    "42": { "type": "Media", "target": "stop" },
+    "43": { "type": "Media", "target": "prev" },
+    "44": { "type": "Media", "target": "next" },
+    "46": { "type": "Media", "target": "defaultsink" },
+    "48": { "type": "MuteSource", "target": "easyeffects_source" }
+  }
+}
