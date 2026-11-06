@@ -21,9 +21,8 @@ MidiKontrol-Rust is a specialized Rust daemon designed to interface a **KORG nan
 - **Hardware:** KORG nanoKONTROL2
 - **Software:**
   - `pactl` (PulseAudio/PipeWire)
-  - `qdbus6` (for KDE OSD, specifically Plasma 6)
-  - `dbus-send`
   - Rust toolchain (for building)
+  - *Hinweis: `qdbus6` und `dbus-send` werden ab v0.2.0 nicht mehr benötigt (native D-Bus Kommunikation via `zbus`).*
 
 ## Configuration
 
